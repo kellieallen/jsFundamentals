@@ -8,7 +8,7 @@ if (weather < 70 ) {
 
 }
 
-let x = 'Lee';
+let x = 'Kellie';
 
 if (x == 'Kellie') {
     console.log('Hello, my name is ' + x);
@@ -49,3 +49,11 @@ if(name.charAt(0) === name.charAt(0).toUpperCase()) {
     console.log(name.slice(1).toLowerCase());
 }
 
+
+function foo () {
+    return bar();
+    function bar() {
+      return "Poppin' bottles";
+    }
+  }
+  console.log(foo());

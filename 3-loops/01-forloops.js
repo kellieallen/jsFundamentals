@@ -25,3 +25,15 @@ for(let i = 1; i <= 50; i++) {
     sum += i 
 }
 console.log(sum);
+
+for(let i = 0; i < 11; i++) {
+    console.log(i);
+}
+
+function car() {
+    
+}
+car();
+
+let school = "Greenwood";
+console.log(school.length);

@@ -30,6 +30,8 @@ let capitalizedName = (name) => {
 
     let tip = (x) => {
         console.log(`Your total is $${x*.2+x} with tip.`);
-    
+        
+        return tip;
     }
-    tip(8);
+    tip(5)
+   

@@ -28,3 +28,12 @@ console.log ('Number is bigger than 5') : (number > 0) ? console.log('Number is 
 
 let number = 20;
 (number >= 25) ? console.log('You can rent a car') : (number >= 21) ? console.log('You can drink') : (number >= 18) ? console.log('You can vote') : console.log('You cannot do anything')
+
+function whatDoesItDo(color) {    
+    if (color !== 'blue' || color !== 'green') {
+       color = 'red';
+    }
+    return color;
+ }; 
+ 
+ console.log(whatDoesItDo());
